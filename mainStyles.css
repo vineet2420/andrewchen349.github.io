@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    }
+
+    table, th, td {
+  /*    border: 1px solid black;*/
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th{
+      width:50%;
+    }
+
+
+.header{
+  background: #191A1D;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  }
+.header:after{
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+/* Logo and Navigation Bar */
+
+#logoTxt{
+  margin-left: -350px;
+  font-size: 45px;
+  color: #d6b417;
+font-family: 'Mukta', sans-serif;
+}
+
+.tab-bar{
+  font-size: 30px;
+}
+.tab-bar a{
+  font-family: 'Major Mono Display', monospace;
+  margin-left: 50px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.tab-bar a:hover{
+  color: gold;
+  text-decoration: overline;
+}
+
+/* main text in the heading */
+.Bioheading {
+ width:100%;
+ font-size: 35px;
+ color: #FFFFFF;
+ text-align: center;
+ margin-top: 200px;
+ font-family: 'PT Sans', sans-serif;
+}
+
+#bioTxt{
+  font-size: 40px;
+}
+
+/*Button */
+ #toContent a{
+  margin-top: 150px;
+  border: 2px solid white;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  font-size: 1vw;
+  width: 15%;
+  cursor: pointer;
+
+
+}
+
+ #toContent a:hover{
+  background: #d6b417;
+  border: 2px solid #d6b417;
+}
+
+/* About */
+.aboutClass{
+  background-color: #efefef;
+  padding-bottom: 180px;
+}
+
+
+#heading{
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 30px;
+    color:black;
+    padding-bottom: 80px;
+}
+
+#headingProject{
+    padding-top: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 125px;
+    color:#d6b417;
+    padding-bottom: 80px;
+}
+
+
+#sizeRes{
+  width: 30%;
+}
+
+/* about txt */
+
+.abtTxt{
+vertical-align: text-top;
+text-align: left;
+width:80%;
+margin-left: 10%;
+position:absolute;
+top: 80px;
+}
+
+.abtTxt1{
+    vertical-align: text-top;
+    text-align: center;
+    width:80%;
+    margin-left: 10%;
+    position:absolute;
+    top: 400px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+
+}
+
+.abtTxt{
+  font-size: 1.5vw;
+  font-family: 'Rubik', sans-serif;
+  font-weight:lighter;
+  line-height: 2;
+
+
+}
+
+.abtTxt1:hover{
+
+    text-decoration: overline;
+    text-decoration-color: #d6b417
+}
+
+.abtTxt2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+    vertical-align: text-top;
+    text-align: center;
+    width:80%;
+    margin-left: 10%;
+    position:absolute;
+    top: 250px;
+}
+.abtTxt2:hover{
+    text-decoration: overline;
+    text-decoration-color: #d6b417;
+}
+
+li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+    font-size: 40px;
+    transition: .5s;
+
+
+}
+li:hover{
+    color: #d6b417;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #d6b417;
+    border: None;
+}
+
+#socialMediaIcon{
+    position: absolute;
+    margin-left: 410px;
+    text-align: center;
+    top: 470px;
+
+}
+
+
+
+tr td{
+  position:relative
+}
+
+/* projects class */
+.projects{
+  background: #191A1D;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 700px;
+}
+.projects:after{
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+
+b{
+  padding-top: 120px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 125px;
+  color:#d6b417;
+
+  text-decoration: none;
+  /*letter-spacing: 0.15em;*/
+
+  display: inline-block;
+  /*padding: 15px 20px;*/
+  position: relative;
+}
+b:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  /*display: block;*/
+  height: 2px;
+  left: 30%;
+  position: absolute;
+  background: #d6b417;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+b:hover:after {
+  width: 90%;
+  left: 200;
+}
+
+.contact{
+    background-color: #efefef;
+    padding-bottom: 170px;
+
+}
+
+#ContactHeader{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+#ContactHeader:hover{
+    text-decoration: underline;
+    text-decoration-color: #d6b417;
+}
+
+
+
+.form{
+    margin-top: 50px;
+
+
+}
+.formControl{
+    border: solid 1px;
+    display: inline-block;
+    width: 50%;
+    background-color: #252934;
+    box-sizing: border-box;
+    padding: 12px 20px;
+
+}
+.formAdjust{
+    text-align: center;
+    border-color: #d6b417;
+    margin-top: 120px;
+
+}
+label, input {
+    display: block;
+}
+label {
+    margin-bottom: 20px;
+}
+input{
+    color: #efefef
+}
+textarea{
+    color: white;
+    max-height: 500px;
+
+    max-width: 1000px;
+}
+
+#submit {
+ margin-top: 60px;
+ border: 2px solid black;
+ color:#d6b417;
+ padding: 20px;
+ text-decoration: none;
+ display: inline-block;
+ text-align: center;
+ overflow: hidden;
+ font-size: 1vw;
+ width: 15%;
+ cursor: pointer;
+
+
+}
+
+#submit:hover{
+ background: #d6b417;
+ border: 2px solid white;
+ color: white;
+}
+
+.copy{
+    background: #191A1D;
+    padding-bottom: 30px;
+}
+
+#bottomSocial{
+    text-align: center;
+    padding-top: 100px;
+}
+#footnote{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Animation in Bio*/
+.ml11 {
+  font-weight: 900;
+  font-size: 1.0em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+
+.bio{
+  background-color: #191A1D;
+}

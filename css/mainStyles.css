@@ -1,0 +1,665 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    }
+
+    table, th, td {
+  /*    border: 1px solid black;*/
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th{
+      width:50%;
+    }
+
+/*first Div*/
+.header{
+/* background: #FCD8B8;*/
+  background-image: url(../assets/stars2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-bottom: 320px;
+}
+/*.header:after{
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+*/
+
+
+/* nav-bar table*/
+#nav-bar{
+  width: 100%;
+}
+#nav-bar-mobile{
+  display: none;
+}
+
+/* Logo and Navigation Bar */
+#logoTxt{
+  margin-left: -350px;
+  font-size: 45px;
+  color: #66ABF7;
+  font-family: 'Mukta', sans-serif;
+}
+
+
+.tab-bar{
+  font-size: 30px;
+
+}
+.tab-bar a{
+  font-family: 'Major Mono Display', monospace;
+  margin-left: 50px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.tab-bar a:hover{
+  color: #66ABF7;
+  text-decoration: overline;
+}
+
+
+
+
+/* mobile nav bar */
+
+.tab-bar-mobile{
+  font-size: 30px;
+
+}
+.tab-bar-mobile a{
+  font-family: 'Major Mono Display', monospace;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.tab-bar-mobile a:hover{
+  color: #66ABF7;
+  text-decoration: overline;
+}
+
+
+
+
+
+
+
+/* main text in the heading */
+.Bioheading {
+ width:100%;
+ font-size: 35px;
+ color: #FFFFFF;
+ text-align: center;
+ margin-top: 200px;
+ font-family: 'PT Sans', sans-serif;
+}
+
+#bioTxt{
+  font-size: 3rem;
+}
+
+/*Button
+ #toContent a{
+  margin-top: 50px;
+
+
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+
+  cursor: pointer;
+  vertical-align: middle;
+
+
+}
+
+#toContent a .fa-angle-down{
+    background: white;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+    color: black;
+}
+#toContent a .fa-angle-down:hover{
+    background: #61A0FF;
+    border: 2px solid #61A0FF;
+    color: white;
+}
+*/
+
+/* About */
+.aboutClass{
+  background-color: #F2F2F2;
+  padding-bottom: 180px;
+  position:relative;
+  z-index: 1;
+/*  border: 2px dotted black;*/
+}
+
+/*.aboutClass:after{
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-2.5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+*/
+
+/* about me div 2nd Div*/
+#heading{
+
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+}
+
+/*user profile icon in about me Div*/
+#icon{
+    margin: 0 auto;
+    margin-left: 38%;
+}
+#icon .fa-user{
+    text-align: center;
+    margin-left: 35%;
+    background: #61A0FF;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+/*third div for Project Section*/
+#headingProject{
+    padding-top: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 125px;
+    color:gold;
+    padding-bottom: 100px;
+}
+
+#abtMobile{
+  display: none;
+}
+
+#abt{
+  width: 100%;
+  margin:0px;
+}
+
+#abt td{
+  margin-top: auto;
+}
+
+table,td,tr,th{
+/*  border: 2px solid pink;*/
+}
+
+
+
+
+#sizeRes{
+  padding-left: 5%;
+  width: 30%;
+}
+
+#ctr{
+  text-align: center;
+}
+
+/* about txt for who am I section, description */
+
+
+
+.abtTxt{
+    display: inline-block;
+  /*  border: 2px solid green;*/
+    width:80%;
+    font-size: 1.5vw;
+    font-family: 'Rubik', sans-serif;
+    font-weight:lighter;
+    line-height: 2;
+    color: grey;
+}
+
+/*controls language and skills images in about me div*/
+.abtTxt2{
+  display: inline-block;
+/*  border: 2px dotted purple;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+    text-align: center;
+    width:80%;
+}
+
+.abtTxt2 p:hover{
+    text-decoration: overline;
+    text-decoration-color: #d6b417;
+}
+
+i:hover{
+  cursor: pointer;
+}
+
+/* li controls skills and tool icons style*/
+li{
+    text-align: center;
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+    font-size: 40px;
+    transition: .5s;
+
+
+}
+li:hover{
+    color: #6CC1DA;
+}
+
+/* a controls the link icons style*/
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FEFEFE;
+    border: None;
+}
+
+.aboutClass a:hover{
+    color: #6CC1DA;
+    border: None;
+}
+
+tr td{
+  position:relative
+}
+
+/* projects class */
+.projects{
+  background: #FFFFFF;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 500px;
+}
+.projects:before{
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: skewY(2.5deg);
+    transform-origin: 100% 0;
+    z-index: -1;
+}
+.projects:after{
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+
+/* control the underline in hover animation*/
+b{
+  padding-top: 120px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 125px;
+  color:#61A0FF;
+
+  text-decoration: none;
+  /*letter-spacing: 0.15em;*/
+
+  display: inline-block;
+  /*padding: 15px 20px;*/
+  position: relative;
+}
+b:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  /*display: block;*/
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #61A0FF;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+b:hover:after {
+  width: 35%;
+  left: 100;
+  height: 7px;
+  border-radius: 20px;
+}
+
+/*contact me div*/
+.contact{
+    background-color: #F2F2F2;
+    padding-bottom: 170px;
+    position: relative;
+
+}
+
+#ContactHeader{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+
+
+
+.form{
+
+    margin-top: 50px;
+
+
+}
+.formControl{
+    border: solid 1px;
+    display: inline-block;
+    width: 50%;
+    background-color: #252934;
+    box-sizing: border-box;
+    padding: 12px 20px;
+
+}
+.formAdjust{
+  /*  border: 2px dotted green;*/
+    text-align: center;
+  /*  border-color: #d6b417; */
+    margin-top: 120px;
+
+}
+label, input {
+    margin: 0 auto;
+    display: block;
+}
+label {
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+input{
+    color: #efefef
+}
+textarea{
+    color: white;
+    max-height: 500px;
+
+    max-width: 1000px;
+}
+/*submit button*/
+#submit {
+ margin-top: 60px;
+ border: 2px solid black;
+ color:black;
+ padding: 20px;
+ text-decoration: none;
+ display: inline-block;
+ text-align: center;
+ overflow: hidden;
+ font-size: 1rem;
+ width: auto;
+ cursor: pointer;
+
+
+}
+
+#submit:hover{
+ background: #61A0FF;
+ border: 2px solid white;
+ color: white;
+}
+
+/*footer div*/
+.copy{
+/*    background: #FCD8B8; */
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#61a0ff+0,61a0ff+47,058ffe+50,3f7fdf+100 */
+background: rgb(97,160,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(97,160,255,1) 0%, rgba(97,160,255,1) 47%, rgba(5,143,254,1) 50%, rgba(63,127,223,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(97,160,255,1) 0%,rgba(97,160,255,1) 47%,rgba(5,143,254,1) 50%,rgba(63,127,223,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(97,160,255,1) 0%,rgba(97,160,255,1) 47%,rgba(5,143,254,1) 50%,rgba(63,127,223,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61a0ff', endColorstr='#3f7fdf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    padding-bottom: 30px;
+}
+
+#bottomSocial{
+    text-align: center;
+    padding-top: 100px;
+}
+#footnote{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    margin-top: 30px;
+}
+/*animation for bouncing arrow*/
+@keyframes bouncing {
+    0% {bottom: 0;}
+    50% {bottom: 20px;}
+    100% {bottom: 0;}
+}
+
+.arrow {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: white;
+}
+
+.arrow:hover{
+    background: #61A0FF;
+    border: 2px solid #61A0FF;
+
+}
+/*typing animation for bioheading*/
+.Bioheading p{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+
+  animation: typing 2.5s steps(60, end), blink-caret .65s step-end 4;
+  white-space: nowrap;
+  border-right: .15em solid transparent;
+  width:710;
+}
+
+ @keyframes typing {
+  from { width: 0 }
+   to { width: 710px; }
+   }
+
+@keyframes blink-caret {
+from, to { border-color: white }
+ 60% { border-color: transparent; }
+   }
+
+/*Animation in Bio
+.ml11 {
+  font-weight: 900;
+  font-size: 1.0em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+*/
+
+.row{
+  margin-top: 100px;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline;
+/*  border: 2px solid green;*/
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:#293347;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+
+  transition: .5s ease;
+}
+
+.column:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: #F2F2F2;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*
+.text a p{
+    border: 2px solid red;
+    border-radius: 25px;
+    height: 50%;
+    width: 110%;
+    display: inline;
+}
+*/
+
+/*Polygons App Link*/
+
+
+
+
+.text p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F2F2F2;
+    margin-bottom: 40%;
+}
+#button  {
+    border: 2px solid #61A0FF;
+    border-radius: 25px;
+    color: #F2F2F2;
+    font-size: 1vw;
+    width: auto;
+    padding: 5px;
+
+
+}
+#button a:hover{
+    background :#61A0FF
+
+
+}
+.bio{
+  background-color: #191A1D;
+}
